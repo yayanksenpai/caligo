@@ -69,7 +69,9 @@ RUN apk add --no-cache \
         libxml2 \
         libssh2 \
         ca-certificates \
-        ffmpeg
+        ffmpeg \
+        flask \
+        flask_restful
 
 # Create bot user
 RUN adduser -D caligo
